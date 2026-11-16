@@ -1,0 +1,45 @@
+{
+  "role": "blender-render",
+  "runs": [
+    {
+      "run": 1,
+      "verdict": "pass",
+      "passed": true
+    },
+    {
+      "run": 2,
+      "verdict": "pass",
+      "passed": true
+    }
+  ],
+  "passed": 2,
+  "n": 2,
+  "wilson95": [
+    0.34,
+    1.0
+  ],
+  "controls": [
+    {
+      "control": "sequences",
+      "verdict": "fail: `.sequences` is `.strips` in Blender 5.x",
+      "caught": true
+    },
+    {
+      "control": "fcurves",
+      "verdict": "fail: `Action.fcurves` was removed in Blender 5.x (slotted actions)",
+      "caught": true
+    },
+    {
+      "control": "ffmpeg-before-media-type",
+      "verdict": "fail: FFMPEG is named before `image_settings.media_type = \"VIDEO\"`, which Blender 5.x raises on",
+      "caught": true
+    },
+    {
+      "control": "no-clip",
+      "verdict": "fail: clip.mp4 is missing or does not hold 2 video frames",
+      "caught": true
+    }
+  ],
+  "controls_caught": 4,
+  "controls_n": 4
+}

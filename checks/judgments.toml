@@ -32,3 +32,17 @@ path = "evidence/roles-review/review.md"
 question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
 file = "26049a446008"
 answer = "The relations the strands describe are drawn in `position.svg` and set out as tables in `state-of-the-art.md`. The findings are one line each with their figures. No relation is described only in words."
+
+[[answer]]
+check = "tree-shape"
+path = "blender-render/trial-1"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: this folder is one record of a collection, the first trial of the role, holding its `scores.json`; the next trial is a folder beside it, as for the pilot role."
+
+[[answer]]
+check = "tree-shape"
+path = "godot-web-build/trial-1"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: this folder is one record of a collection, the first trial of the role, holding its `scores.json`; the next trial is a folder beside it, as for the pilot role."

@@ -1,0 +1,45 @@
+{
+  "role": "godot-web-build",
+  "runs": [
+    {
+      "run": 1,
+      "verdict": "pass",
+      "passed": true
+    },
+    {
+      "run": 2,
+      "verdict": "pass",
+      "passed": true
+    }
+  ],
+  "passed": 2,
+  "n": 2,
+  "wilson95": [
+    0.34,
+    1.0
+  ],
+  "controls": [
+    {
+      "control": "csharp",
+      "verdict": "fail: C# files (Player.cs): the standard build cannot export C# to the Web",
+      "caught": true
+    },
+    {
+      "control": "no-build",
+      "verdict": "fail: build/web/index.html is missing or empty: the build is not proved",
+      "caught": true
+    },
+    {
+      "control": "empty-wasm",
+      "verdict": "fail: build/web/index.wasm is missing or empty: the build is not proved",
+      "caught": true
+    },
+    {
+      "control": "symlink-launcher",
+      "verdict": "fail: `/tmp/tmpes3t32c1/controls/godot-symlink` is a symlink: Godot would run on the Intel iGPU with no error",
+      "caught": true
+    }
+  ],
+  "controls_caught": 4,
+  "controls_n": 4
+}

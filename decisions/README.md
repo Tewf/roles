@@ -6,3 +6,4 @@ One record per choice that shapes the repository, in the standard's decision-rec
 |---|---|---|
 | [0001](0001-a-role-is-defined-by-its-proof.md) | a role is defined by the proof it carries, and the name is kept | proposed |
 | [0002](0002-the-pilot-role-extends-skill-md-and-is-judged-by-a-program.md) | the pilot role extends `SKILL.md` and is judged by a program | proposed |
+| [0003](0003-a-tool-role-is-proved-by-its-pipeline-and-its-judge.md) | a tool role is proved by its pipeline and its judge | proposed |
