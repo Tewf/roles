@@ -1,0 +1,34 @@
+[[answer]]
+check = "tree-shape"
+path = "decisions"
+question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: `decisions` is the folder the decision-record shape names for its records; it holds the README and one record today, and grows one file per choice."
+
+[[answer]]
+check = "tree-shape"
+path = "evidence"
+question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: `evidence` holds the reviews of the repository, one folder each, and the README that lists them; the second review will sit beside `roles-review`."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/roles-review/protocol.md"
+question = "117 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "97a174956d23"
+answer = "Its role is to record how the pool was built, in one sentence without 'and'. Most of its lines are the table of strings under `Formal search`. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/roles-review/sources.md"
+question = "89 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "ef1bd9e3d79a"
+answer = "Its role is to list the pool with its grades and scores. The 54 formal and 13 grey rows under `Formal` and `Grey` are most of its lines. It stays whole."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/roles-review/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "26049a446008"
+answer = "The relations the strands describe are drawn in `position.svg` and set out as tables in `state-of-the-art.md`. The findings are one line each with their figures. No relation is described only in words."

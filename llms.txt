@@ -1,0 +1,21 @@
+# Roles
+
+> Agents made fully autonomous, each with a proof of reliability (Lean, a statistic with its sample, or a reference), packaged to be served like tool servers. A literature review is written and ends on a named baseline; no role is published yet.
+
+Each page's markdown source is served at the same path with a .md extension. This index is written by hand; AGENTS.md says to keep it in step.
+
+## The repository
+
+- [Roles](https://tewf.github.io/roles/README.md): the definition, what the review found and the scope
+- [Decisions](https://tewf.github.io/roles/decisions/README.md): one record per choice that shapes the repository
+
+## The review
+
+- [Evidence](https://tewf.github.io/roles/evidence/README.md): the review of roles, in the five steps of a thesis review
+- [Position](https://tewf.github.io/roles/evidence/roles-review/position.md): what is known, what was not found, what this repository asks
+- [Baseline](https://tewf.github.io/roles/evidence/roles-review/baseline.md): B1, a role as MetaGPT, ChatDev and CAMEL define it, and the neighbour to beat on the proof
+
+## Contributing
+
+- [Contributing](https://tewf.github.io/roles/AGENTS.md): rules for changing this repository
+- [Standard](https://tewf.github.io/reader-ergonomics/standard.md): the reader-ergonomics card this repository obeys

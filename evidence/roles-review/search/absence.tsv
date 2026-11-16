@@ -1,0 +1,37 @@
+repo	term	files
+FoundationAgents/MetaGPT	lean4	0
+FoundationAgents/MetaGPT	wilson	0
+FoundationAgents/MetaGPT	"confidence interval"	1
+FoundationAgents/MetaGPT	"formal verification"	0
+FoundationAgents/MetaGPT	"autonomy level"	0
+FoundationAgents/MetaGPT	"standard operating procedure"	1
+OpenBMB/ChatDev	lean4	0
+OpenBMB/ChatDev	wilson	0
+OpenBMB/ChatDev	"confidence interval"	0
+OpenBMB/ChatDev	"formal verification"	0
+OpenBMB/ChatDev	"autonomy level"	0
+OpenBMB/ChatDev	"standard operating procedure"	0
+camel-ai/camel	lean4	0
+camel-ai/camel	wilson	1
+camel-ai/camel	"confidence interval"	0
+camel-ai/camel	"formal verification"	0
+camel-ai/camel	"autonomy level"	0
+camel-ai/camel	"standard operating procedure"	0
+crewAIInc/crewAI	lean4	0
+crewAIInc/crewAI	wilson	56
+crewAIInc/crewAI	"confidence interval"	0
+crewAIInc/crewAI	"formal verification"	0
+crewAIInc/crewAI	"autonomy level"	0
+crewAIInc/crewAI	"standard operating procedure"	0
+microsoft/autogen	lean4	0
+microsoft/autogen	wilson	1
+microsoft/autogen	"confidence interval"	0
+microsoft/autogen	"formal verification"	0
+microsoft/autogen	"autonomy level"	0
+microsoft/autogen	"standard operating procedure"	0
+OpenHands/OpenHands	lean4	0
+OpenHands/OpenHands	wilson	0
+OpenHands/OpenHands	"confidence interval"	0
+OpenHands/OpenHands	"formal verification"	0
+OpenHands/OpenHands	"autonomy level"	0
+OpenHands/OpenHands	"standard operating procedure"	0

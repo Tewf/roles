@@ -1,0 +1,256 @@
+string,result,concepts
+F1,2402.01968 context-aware MAS survey,
+F1,2503.13415 cooperative decision-making survey,
+F1,2504.01963 LLMs working in harmony,llm-mas-survey
+F1,2402.01680 Guo 2024 survey,llm-mas-survey;role-profiling
+F1,2502.14321 communication-centric survey,llm-mas-survey;conversation-protocol
+F1,2507.23694 geosimulation survey,
+F1,2404.01230 strategic reasoning survey,
+F1,2509.00987 causal MAS survey,
+F1,2502.16804 driving MAS survey,
+F1,2504.14520 meta-thinking survey,
+F2,2607.07321 atomic actions to SOPs,sop-agent
+F2,2501.09316 SOP-Agent,sop-agent;role-by-sop
+F2,2603.25158 Trace2Skill,skill-package;skill-learning
+F2,2602.09336 FM SO.P,sop-benchmark
+F2,2503.15520 Agent-S SOP,sop-agent
+F2,2602.07342 SupChain-Bench,
+F2,2604.09285 SAGE,
+F2,2611.12953 cost-success across SOPs,sop-agent;cost-accuracy;skill-package
+F3,2607.23438 capability from permission,autonomy-levels;permission-governance
+F3,2506.12469 Levels of Autonomy for AI Agents,autonomy-levels;autonomy-certificate
+F3,2407.14975 measure for level of autonomy,autonomy-measure
+F3,2510.17764 medical LLM levels of autonomy,autonomy-levels
+F3,2508.11294 Allen step-level autonomy,autonomy-levels
+F3,2303.06776 robot health indicator,
+F3,2302.03481 guiding robots,
+F4,2512.08743 single-agent scaling fails,
+F4,2610.19051 theory of mind teams,
+F4,2510.20963 multi-agent debate fails,debate-no-gain
+F4,2605.01133 embedding defences,
+F4,2601.16280 tool invocation reliability diagnostic,tool-failure-diagnostic
+F5,2607.02186 UA-ChatDev,uncertainty-propagation;role-by-sop
+F5,2505.16086 textual feedback optimisation,
+F5,2510.03463 ALMAS,role-by-sop
+F5,2410.22129 commercial AI multi-agent configuration,
+F5,2601.16507 REprompt,
+F5,2506.19481 Haskell refactoring MAS,
+F5,2410.22662 EMOS,
+F5,2306.03314 multi-agent collaboration harnessing,
+F6,2604.24579 Markov chain reliability,markov-reliability;pass-k-reliability
+F6,2608.22793 TRACE skill bank,skill-learning
+F6,2601.06112 ReliabilityBench,pass-k-reliability
+F6,2606.10156 tau-Rec,
+F6,2509.18713 MemOrb,
+F6,2602.07150 randomness in agentic evals,eval-variance
+F6,2406.12045 tau-bench,pass-k-reliability
+F6,2604.14877 pass@(k,T),pass-k-reliability
+F7,2606.29687 machine-verified proof,lean-formal-proof
+F7,2610.24548 GPU kernels Lean,lean-formal-proof;generated-code-verification
+F7,2604.03789 automated conjecture resolution,lean-formal-proof;autonomous-math-agent
+F7,2610.13632 olympiad agents,autonomous-math-agent
+F7,2607.06341 code agents for verification,generated-code-verification
+F7,2609.11319 Magenta,lean-formal-proof
+F7,2605.27485 agent-guided tree search verification,generated-code-verification
+F7,2603.29088 WybeCoder,generated-code-verification
+F8,2606.20662 confidence laundering,uncertainty-propagation
+F8,2511.15718 ToolMind,
+F8,2607.04240 biological motifs,
+F8,2603.04474 from spark to fire,error-cascade;central-check
+F8,2110.10081 offline policy evaluation,
+F8,2605.08935 PnP-Corrector,
+F8,2607.01767 planning-graph repair,
+F8,2609.20268 behaviour prior distillation,
+F9,2503.23278 MCP landscape,mcp;mcp-security
+F9,2602.01129 SMCP,mcp-security
+F9,2601.20184 cyber-physical agents survey,
+F9,2504.19997 MCP gateways,mcp
+F9,2611.11104 MCP vulnerability dataset,mcp-security
+F9,2602.19514 agents hiring humans,
+F9,2510.21236 AgentBound,mcp-security
+F9,2510.16558 MCP ecosystem security,mcp-security
+F10,2609.09233 subagents vs agent skills,skill-package;subagent-contract
+F10,2607.13987 agent skill security,skill-supply-chain
+F10,2607.10534 cross-layer misalignment skills,skill-supply-chain
+F10,2606.22613 SkillAudit,skill-benchmark
+F10,2605.15625 ColPackAgent,
+F10,2607.01136 skills are not islands,skill-supply-chain
+F10,2608.02287 SKT,skill-learning
+F10,2607.28200 Vibe-FDTR,
+F11,2604.21964 external review scheming safety case,safety-case
+F11,2403.10462 Clymer safety cases,safety-case
+F11,2601.22773 structured safety case construction,safety-case
+F11,2410.21572 safety cases for frontier AI,safety-case
+F11,2503.04744 scalable safety cases,safety-case
+F11,2503.11705 BIG argument,safety-case
+F11,2502.05791 confidence in safety cases,safety-case;argument-confidence
+F11,2411.08088 cyber inability safety case,safety-case
+F12,2603.28589 medical AI scientist,ai-scientist
+F12,2510.09901 autonomous agents for scientific discovery,ai-scientist
+F12,2605.08956 AI scientists not built for autonomy,ai-scientist;autonomy-limits
+F12,2606.26448 automated cognitive scientist,ai-scientist
+F12,2507.11810 evolving roles of LLMs in science,llm-role-taxonomy
+F12,2504.08066 AI Scientist v2,ai-scientist
+F12,2510.11661 SR-Scientist,ai-scientist
+F12,2505.08341 benchmarking AI scientists omics,ai-scientist
+F14,2305.15771 planning abilities of LLMs,llm-cannot-plan
+F14,2405.20625 LLM-Modulo travel planning,llm-modulo-verifier
+F14,2411.14484 compound LLM architectures,llm-modulo-verifier
+F14,2402.01817 LLM-Modulo,llm-modulo-verifier;llm-cannot-self-verify
+F14,2410.03904 AADG,
+F14,2505.10966 equations with errors,
+F14,2605.17565 chess brittleness,
+F14,2501.04040 survey LLM limitations,
+lead,2308.00352 MetaGPT,role-by-sop;conversation-protocol
+lead,2307.07924 ChatDev,role-by-sop;chat-chain
+lead,2303.17760 CAMEL,role-play-prompt
+lead,2308.08155 AutoGen,conversation-protocol
+lead,2308.10848 AgentVerse,dynamic-roles
+lead,2405.15793 SWE-agent,agent-computer-interface
+lead,2407.16741 OpenHands,agent-platform
+lead,2305.16291 Voyager,skill-library-learning
+lead,2407.01502 AI agents that matter,benchmark-pitfalls;cost-accuracy
+lead,2503.13657 Cemri 2025 MAST,failure-taxonomy
+lead,2512.08296 Kim 2025 scaling agent systems,central-check;error-amplification
+lead,2408.06292 AI Scientist,ai-scientist
+lead,Romera-Paredes 2024 FunSearch,program-search-evaluator
+lead,2506.13131 AlphaEvolve,program-search-evaluator
+lead,Parasuraman 2000 levels of automation,autonomy-levels
+lead,Necula 1997 proof-carrying code,proof-carrying-code
+lead,2404.12534 Lean Copilot,lean-formal-proof
+lead,Zheng 2024 personas,persona-no-gain
+lead,Chen 2024 self-collaboration,role-by-sop
+O1,Google A2A secure application,a2a-agent-card
+O1,SAGA security architecture,agent-governance
+O1,2601.13671 orchestration MCP and A2A,mcp;a2a-agent-card
+O1,A2A protocol security threat modelling,a2a-agent-card;mcp-security
+O1,cytolysins 1979,
+O2,2602.12670 SkillsBench,skill-benchmark;deterministic-verifier
+O2,2602.12430 agent skills survey,skill-package;skill-spec
+O2,2604.24026 skill structure representation,skill-spec
+O2,2605.15215 SkillSmith,skill-spec
+O2,2608.08453 138K SKILL.md files,skill-defects
+O2,2607.10113 dynamic skills lifecycle survey,skill-learning
+O3,MCP-Unity,tool-role-engine-mcp
+O3,XARP extended reality toolkit,
+O3,material consistency 3D assets,
+O3,SimuLean,
+O3,agentic architecture for BIM,tool-role-engine-mcp
+O5,2607.24343 role-stratified conformal risk control,conformal-guarantee
+O5,conformal mixture-of-agents,conformal-guarantee
+O6,Ax-Prover,lean-formal-proof;autonomous-math-agent
+O6,Lean smart contract synthesis,lean-formal-proof;generated-code-verification
+O6,KaPilot Kani specifications,generated-code-verification
+O6,agentic MLOps model checking,formal-model-checking
+O8,personas do not improve performance,persona-no-gain
+O8,assistant axis,
+O9,2605.23951 formal verification of agent skills,skill-formal-verification;proof-carrying-code;capability-containment
+O10,agentic code reasoning,
+O10,2606.08021 semantic quorum assurance,collective-certification
+O10,medical uncertainty-aware agents,
+B1,Chatlaw,role-by-sop
+B1,2402.05120 more agents is all you need,sampling-voting
+B1,APIGen verifiable function-calling data,deterministic-verifier
+B1,debug like a human,
+B2,Wang 2024 survey autonomous agents,llm-mas-survey
+B2,Xi 2025 rise and potential,llm-mas-survey
+B3,AI agents vs agentic AI,agentic-taxonomy
+B3,2404.04834 LLM-MAS for software engineering,llm-mas-survey
+B3,AI-Researcher,ai-scientist
+B6,MAS-Orchestra,central-check
+B6,TeamBench enforced role separation,role-separation-enforced
+B6,Rethinking value of agent-generated tests,
+B7,conformal agent error attribution,conformal-guarantee
+B7,2607.10508 confining nondeterminism,nondeterminism-confinement
+B7,Towards an agent operating system,agent-os
+B7,2605.00424 skills as verifiable artifacts,skill-verification-lattice;proof-carrying-code
+R1,CAMEL role-playing,role-play-prompt
+R1,Beyond demographics role-playing,role-play-fidelity
+R1,MIND inner dialogue,
+R1,RVBench role values,role-play-fidelity
+R1,goal inference from dialog,
+R2,SkillJect,skill-supply-chain
+R2,SkillFlow retrieval,skill-retrieval
+R2,Under the hood of SKILL.md,skill-supply-chain
+R2,Harness engineering,agent-harness
+R2,From anatomy to smells SKILL.md,skill-defects
+R2,Skill-to-LoRA,skill-learning
+R3,MCP landscape,mcp;mcp-security
+R3,MCP at first glance,mcp-security
+R3,MCP-Universe,mcp-benchmark
+R3,MCP-Bench,mcp-benchmark
+R3,MCP safety audit,mcp-security
+R3,MCP survey architecture,mcp
+R4,Team play with a powerful agent automation surprises,automation-surprise
+R4,agents meet blockchain,
+R4,Levels of Autonomy for AI Agents,autonomy-levels
+R4,function allocation human autonomy teaming,function-allocation
+R4,Towards autonomous mathematics research,autonomous-math-agent
+R4,language models automated mental healthcare,
+R5,tau-bench,pass-k-reliability
+R5,ReliabilityBench,pass-k-reliability
+R5,AgentChangeBench,goal-shift-robustness
+R5,MemOrb,
+R5,tau-Rec,
+R5,Markov chain reliability,markov-reliability
+R6,integrated pest management,
+R6,ondansetron arrhythmias,
+R6,AI control safety case,safety-case;ai-control
+R6,allergy local anaesthesia,
+R6,evaluate control measures,ai-control
+R6,alignment safety case debate,safety-case
+R7,Formalizing mathematics at scale,lean-formal-proof;autoformalization-agent
+R7,MerLean,autoformalization-agent;lean-formal-proof
+R7,formalizing numerical analysis audit,autoformalization-agent;formalization-quality
+R7,Beyond the library autoformalizing,autoformalization-agent
+R7,SHADOWBENCH,formalization-quality
+R7,MathCoPilot,autonomous-math-agent
+R8,Are multi-agent coding frameworks obsolete,single-agent-default
+R9,FunSearch,program-search-evaluator
+R9,SeaEvo,program-search-evaluator
+R9,Relay do not route,program-search-evaluator
+R9,ProFiT,program-search-evaluator
+R9,procedural content metageneration,
+R9,AgenticEvolve,program-search-evaluator
+R10,AI Scientist v2,ai-scientist
+R10,Can LLMs generate novel research ideas,idea-novelty-human-study
+R10,AI-Researcher,ai-scientist
+R10,SpatialAgent,ai-scientist
+R10,CodeScientist,ai-scientist
+R10,FIRE-Bench,ai-scientist
+O4,hijacking tool-integrated agents,
+O7,myocardial infarction definition,
+O7,diagnostic procedures viral infections,
+O7,inappropriate medication nursing homes,
+O7,laboratory methods diagnosis,
+O7,ARRIVE 2.0,
+O7,preservative agents in foods,
+O7,lung cancer guideline,
+O7,ceramide lipid regulation,
+B1,emerged security and privacy of LLM agents,
+B1,survey LLMs for software engineering,
+B1,Data Interpreter,
+B1,survey code generation with LLM agents,llm-mas-survey
+B2,survey of large language models,
+B2,comprehensive overview of LLMs,
+B2,LLMs for SE systematic review,
+B2,LLMs for code generation survey,
+B2,memory mechanism survey,
+B3,AgentNet,dynamic-roles
+B3,autonomous LLM-driven research human-verifiable papers,ai-scientist;human-verifiable
+B4,VulnBot,
+B4,benchmarking emergent coordination,
+B4,geometric reasoning gap,
+B4,ALGPT,
+B4,CodeDelegator role separation,role-separation-context
+B6,agent-only social networks to autonomous research,
+B6,graph engineering,
+B6,beyond individual intelligence survey,llm-mas-survey
+B6,OnFly,
+B6,EvoMAS,
+B7,BRIDGE boundary repair,
+B7,Humanize judgement engineering,
+B7,measuring AI agents as teammates,
+B7,constraining the commit boundary,
+B7,trustworthy recursive self-improvement,
+O11,Sovereign stack computational jurisdiction,

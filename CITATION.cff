@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: >-
+  If this repository helps you, you may cite it as below. It is an informal,
+  work-in-progress synthesis of published research, written with Claude, an AI
+  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  and not a new result.
+title: "roles (work in progress)"
+abstract: >-
+  Agents made fully autonomous, each with a proof of reliability (Lean, a statistic with its sample, or a reference), packaged to be served like tool servers. A literature review is written and ends on a named baseline; no role is published yet.
+type: software
+authors:
+  - name: "Tewf"
+repository-code: "https://github.com/Tewf/roles"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - LLM agents
+  - agent skills
+  - Model Context Protocol
+  - reliability
+  - formal verification
