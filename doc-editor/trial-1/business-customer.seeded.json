@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "decisions/0002-keep-the-name-and-read-a-study-protocol-by-program.md",
+   "target": "../evidence/customer-demand/review.md",
+   "now": "../evidence/customer-demand/review-old.md"
+  },
+  {
+   "file": "README.md",
+   "target": "decisions/0002-keep-the-name-and-read-a-study-protocol-by-program.md",
+   "now": "decisions/0002-keep-the-name-and-read-a-study-protocol-by-program-old.md"
+  },
+  {
+   "file": "evidence/customer-demand/position.md",
+   "target": "../../shapes/customer-study.md",
+   "now": "../../shapes/customer-study-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "README.md",
+   "into": "evidence/customer-demand/sources.md"
+  },
+  {
+   "from": "README.fr.md",
+   "into": "evidence/bibliography.md"
+  }
+ ]
+}

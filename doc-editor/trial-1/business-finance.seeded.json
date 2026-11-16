@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "evidence/finance-runway/README.md",
+   "target": "state-of-the-art.md",
+   "now": "state-of-the-art-old.md"
+  },
+  {
+   "file": "AGENTS.md",
+   "target": "CHANGELOG.md",
+   "now": "CHANGELOG-old.md"
+  },
+  {
+   "file": "decisions/0002-the-baseline-is-the-spreadsheet-runway.md",
+   "target": "../evidence/finance-runway/frame.md",
+   "now": "../evidence/finance-runway/frame-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "evidence/finance-runway/protocol.md",
+   "into": "evidence/finance-runway/position.md"
+  },
+  {
+   "from": "README.fr.md",
+   "into": "decisions/0001-a-repository-of-its-own.md"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "AGENTS.md",
+   "target": "CHANGELOG.md",
+   "now": "CHANGELOG-old.md"
+  },
+  {
+   "file": "decisions/0002-keep-the-name-and-size-a-market-by-two-methods.md",
+   "target": "../evidence/market-structure/against.md",
+   "now": "../evidence/market-structure/against-old.md"
+  },
+  {
+   "file": "evidence/market-structure/review.md",
+   "target": "../../README.md",
+   "now": "../../README-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "evidence/market-structure/protocol.md",
+   "into": "evidence/market-structure/README.md"
+  },
+  {
+   "from": "evidence/market-structure/state-of-the-art.md",
+   "into": "evidence/market-structure/against.md"
+  }
+ ]
+}

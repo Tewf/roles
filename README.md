@@ -39,5 +39,5 @@ A **role** is an AI-augmented project made fully autonomous, with a proof of rel
 
 ## What comes next
 
-- The pilot role, a documentation editor, measured as a pass rate with its Wilson interval over ten repositories, against the single agent without the role.
+- The pilot role, a documentation editor, is in [doc-editor/](doc-editor/ROLE.md); its measured pass rate with the Wilson interval over ten repositories, against the single agent without the role, is in [reliability.md](doc-editor/reliability.md).
 - The manifest: whether it extends the `SKILL.md` format and its verification levels, and where the autonomy level and the proof fields go (see [position](evidence/roles-review/position.md)).

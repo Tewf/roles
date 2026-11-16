@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "evidence/foraging-and-stopping/sources.md",
+   "target": "../bibliography.md",
+   "now": "../bibliography-old.md"
+  },
+  {
+   "file": "evidence/foraging-and-stopping/README.md",
+   "target": "baseline.md",
+   "now": "baseline-old.md"
+  },
+  {
+   "file": "evidence/foraging-and-stopping/frame.md",
+   "target": "protocol.md",
+   "now": "protocol-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "evidence/foraging-and-stopping/review.md",
+   "into": "evidence/foraging-and-stopping/baseline.md"
+  },
+  {
+   "from": "evidence/foraging-and-stopping/state-of-the-art.md",
+   "into": "skills/gather-data/SKILL.md"
+  }
+ ]
+}

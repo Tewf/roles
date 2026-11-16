@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "evidence/case-reports/sources.md",
+   "target": "frame.md",
+   "now": "frame-old.md"
+  },
+  {
+   "file": "principles/reporting/answer-the-readers-checklist.md",
+   "target": "../../shapes/case.md",
+   "now": "../../shapes/case-old.md"
+  },
+  {
+   "file": "README.md",
+   "target": "cases/2026-10-29-family-night/README.md",
+   "now": "cases/2026-10-29-family-night/README-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "README.md",
+   "into": "decisions/0001-a-repository-of-its-own.md"
+  },
+  {
+   "from": "evidence/case-reports/protocol.md",
+   "into": "principles/reporting/participants-write-experience-reports.md"
+  }
+ ]
+}

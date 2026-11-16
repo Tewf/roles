@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "AGENTS.md",
+   "target": "CHANGELOG.md",
+   "now": "CHANGELOG-old.md"
+  },
+  {
+   "file": "decisions/0002-keep-the-name-and-measure-a-stated-range-against-a-paid-one.md",
+   "target": "../evidence/willingness-to-pay/against.md",
+   "now": "../evidence/willingness-to-pay/against-old.md"
+  },
+  {
+   "file": "evidence/willingness-to-pay/review.md",
+   "target": "../bibliography.md",
+   "now": "../bibliography-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "evidence/willingness-to-pay/README.md",
+   "into": "evidence/willingness-to-pay/against.md"
+  },
+  {
+   "from": "README.fr.md",
+   "into": "evidence/willingness-to-pay/baseline.md"
+  }
+ ]
+}

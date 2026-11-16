@@ -1,0 +1,52 @@
+{
+ "verdicts": {
+  "role": {
+   "ai-augmented-cases": "pass",
+   "ai-augmented-data-gathering": "pass",
+   "ai-augmented-practice": "pass",
+   "business": "pass",
+   "business-customer": "pass",
+   "business-finance": "pass",
+   "business-market": "pass",
+   "business-model": "pass",
+   "business-pricing": "pass",
+   "reader-ergonomics-project": "pass"
+  },
+  "base": {
+   "ai-augmented-cases": "pass",
+   "ai-augmented-data-gathering": "pass",
+   "ai-augmented-practice": "pass",
+   "business": "pass",
+   "business-customer": "pass",
+   "business-finance": "pass",
+   "business-market": "pass",
+   "business-model": "pass",
+   "business-pricing": "pass",
+   "reader-ergonomics-project": "pass"
+  }
+ },
+ "summary": {
+  "role": {
+   "passed": 10,
+   "n": 10,
+   "rate": 1.0,
+   "wilson95": [
+    0.722,
+    1.0
+   ]
+  },
+  "base": {
+   "passed": 10,
+   "n": 10,
+   "rate": 1.0,
+   "wilson95": [
+    0.722,
+    1.0
+   ]
+  },
+  "discordant": {
+   "role_only": 0,
+   "base_only": 0
+  }
+ }
+}

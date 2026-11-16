@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "evidence/frame.md",
+   "target": "bibliography.md",
+   "now": "bibliography-old.md"
+  },
+  {
+   "file": "map/runs-per-arm.md",
+   "target": "../evidence/bibliography.md",
+   "now": "../evidence/bibliography-old.md"
+  },
+  {
+   "file": "map/paywalled-sources.md",
+   "target": "data-gathering.md",
+   "now": "data-gathering-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "evidence/README.md",
+   "into": "CHANGELOG.md"
+  },
+  {
+   "from": "evidence/bibliography.md",
+   "into": "map/tiers.md"
+  }
+ ]
+}

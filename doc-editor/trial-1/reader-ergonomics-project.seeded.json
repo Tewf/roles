@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "shapes/examples/first-job/README.md",
+   "target": "baseline.md",
+   "now": "baseline-old.md"
+  },
+  {
+   "file": "evidence/project-method/position.md",
+   "target": "against.md",
+   "now": "against-old.md"
+  },
+  {
+   "file": "decisions/0004-four-findings-became-principles.md",
+   "target": "README.md",
+   "now": "README-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "evidence/README.md",
+   "into": "shapes/examples/first-job/scope.md"
+  },
+  {
+   "from": "evidence/project-method/sources.md",
+   "into": "shapes/examples/first-job/review.md"
+  }
+ ]
+}

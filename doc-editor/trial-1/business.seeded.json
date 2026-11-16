@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "decisions/0001-a-repository-of-its-own.md",
+   "target": "README.md",
+   "now": "README-old.md"
+  },
+  {
+   "file": "decisions/README.md",
+   "target": "0001-a-repository-of-its-own.md",
+   "now": "0001-a-repository-of-its-own-old.md"
+  },
+  {
+   "file": "README.md",
+   "target": "README.fr.md",
+   "now": "README.fr-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "README.fr.md",
+   "into": "decisions/0001-a-repository-of-its-own.md"
+  },
+  {
+   "from": "README.md",
+   "into": "AGENTS.md"
+  }
+ ]
+}

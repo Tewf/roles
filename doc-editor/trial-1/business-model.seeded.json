@@ -1,0 +1,30 @@
+{
+ "seed": 1,
+ "links": [
+  {
+   "file": "evidence/business-model/review.md",
+   "target": "frame.md",
+   "now": "frame-old.md"
+  },
+  {
+   "file": "evidence/business-model/state-of-the-art.md",
+   "target": "review.md",
+   "now": "review-old.md"
+  },
+  {
+   "file": "evidence/business-model/README.md",
+   "target": "review.md",
+   "now": "review-old.md"
+  }
+ ],
+ "duplicates": [
+  {
+   "from": "evidence/business-model/README.md",
+   "into": "evidence/business-model/protocol.md"
+  },
+  {
+   "from": "evidence/business-model/sources.md",
+   "into": "decisions/0002-the-baseline-is-the-canvas-in-practice.md"
+  }
+ ]
+}
