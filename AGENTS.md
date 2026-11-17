@@ -1,6 +1,6 @@
 # Contributing to this repository
 
-For anyone changing this repository, person or language model. To apply the reader-ergonomics standard elsewhere, read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/standard.md). This file is about this repository only.
+For anyone changing this repository, person or language model. To apply the reader-ergonomics standard elsewhere, read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/030e4f21a151dca21366dc98923e6285f5f6e5ba/standard.md). This file is about this repository only.
 
 ## Before writing
 

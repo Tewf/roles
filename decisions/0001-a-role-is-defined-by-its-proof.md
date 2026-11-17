@@ -2,7 +2,7 @@
 
 **Decision:** The word role is kept. The first lines of the front page define it as an autonomous AI-augmented project with a proof of reliability, which tells it apart from a persona and from a skill.
 
-**Status:** proposed, 2026-11-16, for the maintainer to accept or change. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/shapes/decision-record.md).
+**Status:** proposed, 2026-11-16, for the maintainer to accept or change. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/030e4f21a151dca21366dc98923e6285f5f6e5ba/shapes/decision-record.md).
 
 ## Context
 

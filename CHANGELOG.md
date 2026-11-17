@@ -4,6 +4,10 @@ The releases this repository pins, newest first, in the form of [Keep a Changelo
 
 ## [Unreleased]
 
+### Changed
+
+- Pinned reader-ergonomics v1.24.5 (`030e4f2`), from v1.24.2 (`65e4247`): a SICI DOI is read whole and a server that refuses the checker is a warning, so the weekly online run does not fail on a reference that exists.
+
 ### Added
 
 - The literature review of roles, with its baseline B1, in `evidence/roles-review/`.
