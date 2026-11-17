@@ -2,7 +2,7 @@
 
 **Decision:** A tool role (Blender, Godot) states its reliability as a count: the clean runs of the tool's own pipeline that a program judged `pass`, with the Wilson interval. It adds the faults its judge must refuse.
 
-**Status:** proposed, 2026-11-16, for the maintainer to accept or change. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/shapes/decision-record.md).
+**Status:** proposed, 2026-11-16, for the maintainer to accept or change. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/030e4f21a151dca21366dc98923e6285f5f6e5ba/shapes/decision-record.md).
 
 ## Context
 
