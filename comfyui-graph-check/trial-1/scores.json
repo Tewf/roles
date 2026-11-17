@@ -1,0 +1,55 @@
+{
+  "role": "comfyui-graph-check",
+  "runs": [
+    {
+      "run": 1,
+      "verdict": "pass",
+      "passed": true
+    },
+    {
+      "run": 2,
+      "verdict": "pass",
+      "passed": true
+    }
+  ],
+  "passed": 2,
+  "n": 2,
+  "wilson95": [
+    0.34,
+    1.0
+  ],
+  "controls": [
+    {
+      "control": "port-held",
+      "verdict": "fail: the port was held before the server started: the answers may come from an older server",
+      "caught": true
+    },
+    {
+      "control": "stale-version",
+      "verdict": "fail: the server says ComfyUI 0.28.0, the install is 0.34.0",
+      "caught": true
+    },
+    {
+      "control": "empty-schema",
+      "verdict": "fail: object_info.json serves 0 node classes, fewer than 800",
+      "caught": true
+    },
+    {
+      "control": "error-report",
+      "verdict": "fail: report.md lists a graph with a hard error or one that could not be built",
+      "caught": true
+    },
+    {
+      "control": "class-name-trap",
+      "verdict": "fail: the graph is refused by the server's schema: node 1: unknown class 'ReferenceAudio'",
+      "caught": true
+    },
+    {
+      "control": "missing-input",
+      "verdict": "fail: the graph is refused by the server's schema: node 1 (EmptyLatentImage): required input 'height' missing",
+      "caught": true
+    }
+  ],
+  "controls_caught": 6,
+  "controls_n": 6
+}

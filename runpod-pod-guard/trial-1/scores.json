@@ -1,0 +1,55 @@
+{
+  "role": "runpod-pod-guard",
+  "runs": [
+    {
+      "run": 1,
+      "verdict": "pass",
+      "passed": true
+    },
+    {
+      "run": 2,
+      "verdict": "pass",
+      "passed": true
+    }
+  ],
+  "passed": 2,
+  "n": 2,
+  "wilson95": [
+    0.34,
+    1.0
+  ],
+  "controls": [
+    {
+      "control": "no-guard",
+      "verdict": "fail: guard_armed.txt shows no timer with OnActiveSec=1h: no deadline was armed",
+      "caught": true
+    },
+    {
+      "control": "stop-not-delete",
+      "verdict": "fail: the guard's service does not run `runpodctl pod delete judge2094364`",
+      "caught": true
+    },
+    {
+      "control": "wrong-version",
+      "verdict": "fail: version.txt says `runpodctl 1.14.0`, runpodctl says `runpodctl 2.12.0-51ca7f0`",
+      "caught": true
+    },
+    {
+      "control": "no-eu",
+      "verdict": "fail: datacenters.json lists no EU datacenter with a GPU",
+      "caught": true
+    },
+    {
+      "control": "state-moved",
+      "verdict": "fail: the studio's pod state changed during the run: something was rented",
+      "caught": true
+    },
+    {
+      "control": "still-armed",
+      "verdict": "fail: the timer studio-pod-judge2094364 is still active: the guard was not disarmed",
+      "caught": true
+    }
+  ],
+  "controls_caught": 6,
+  "controls_n": 6
+}

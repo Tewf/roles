@@ -46,3 +46,31 @@ path = "godot-web-build/trial-1"
 question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
 file = ""
 answer = "It stays: this folder is one record of a collection, the first trial of the role, holding its `scores.json`; the next trial is a folder beside it, as for the pilot role."
+
+[[answer]]
+check = "tree-shape"
+path = "cadquery-part/trial-1"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: this folder is one record of a collection, the first trial of the role, holding its `scores.json`; the next trial is a folder beside it, as for the pilot role."
+
+[[answer]]
+check = "tree-shape"
+path = "comfyui-graph-check/trial-1"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: this folder is one record of a collection, the first trial of the role, holding its `scores.json`; the next trial is a folder beside it, as for the pilot role."
+
+[[answer]]
+check = "tree-shape"
+path = "unity-batch-build/trial-1"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: this folder is one record of a collection, the first trial of the role, holding its `scores.json`; the next trial is a folder beside it, as for the pilot role."
+
+[[answer]]
+check = "tree-shape"
+path = "runpod-pod-guard/trial-1"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: this folder is one record of a collection, the first trial of the role, holding its `scores.json`; the next trial is a folder beside it, as for the pilot role."

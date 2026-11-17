@@ -41,4 +41,5 @@ A **role** is an AI-augmented project made fully autonomous, with a proof of rel
 
 - The pilot role, a documentation editor, is in [doc-editor/](doc-editor/ROLE.md); its measured pass rate with the Wilson interval over ten repositories, against the single agent without the role, is in [reliability.md](doc-editor/reliability.md).
 - The first two tool roles are [blender-render](blender-render/ROLE.md) and [godot-web-build](godot-web-build/ROLE.md); each states its count of judged pipeline runs in its `reliability.md`.
+- Four more tool roles follow the same form: [cadquery-part](cadquery-part/ROLE.md), [comfyui-graph-check](comfyui-graph-check/ROLE.md), [unity-batch-build](unity-batch-build/ROLE.md) and [runpod-pod-guard](runpod-pod-guard/ROLE.md). The last rents nothing: it proves the deadline that deletes a pod before one exists.
 - The manifest: whether it extends the `SKILL.md` format and its verification levels, and where the autonomy level and the proof fields go (see [position](evidence/roles-review/position.md)).

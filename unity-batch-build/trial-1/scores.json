@@ -1,0 +1,50 @@
+{
+  "role": "unity-batch-build",
+  "runs": [
+    {
+      "run": 1,
+      "verdict": "pass",
+      "passed": true
+    },
+    {
+      "run": 2,
+      "verdict": "pass",
+      "passed": true
+    }
+  ],
+  "passed": 2,
+  "n": 2,
+  "wilson95": [
+    0.34,
+    1.0
+  ],
+  "controls": [
+    {
+      "control": "no-scene",
+      "verdict": "fail: Smoke.unity is missing or empty: the editor method did not run to its end",
+      "caught": true
+    },
+    {
+      "control": "exit-code",
+      "verdict": "fail: the -executeMethod run did not exit 0",
+      "caught": true
+    },
+    {
+      "control": "wrong-version",
+      "verdict": "fail: ProjectVersion.txt names 6000.3.0f1, the installed editor is 6000.6.9f1",
+      "caught": true
+    },
+    {
+      "control": "not-a-cube",
+      "verdict": "fail: SmokeCube has no MeshFilter on Unity's built-in cube mesh",
+      "caught": true
+    },
+    {
+      "control": "no-json",
+      "verdict": "fail: smoke.json is missing or empty: the editor method did not run to its end",
+      "caught": true
+    }
+  ],
+  "controls_caught": 5,
+  "controls_n": 5
+}

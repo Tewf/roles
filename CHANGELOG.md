@@ -10,5 +10,6 @@ The releases this repository pins, newest first, in the form of [Keep a Changelo
 
 ### Added
 
+- The tool roles `cadquery-part`, `comfyui-graph-check`, `unity-batch-build` and `runpod-pod-guard`, each with a reference pipeline run twice from an empty folder, its judge and its refused faults, in the form of decision 0003.
 - The literature review of roles, with its baseline B1, in `evidence/roles-review/`.
 - Pinned reader-ergonomics v1.24.2 (`65e4247`), the commit its release tag points to, in both workflows.

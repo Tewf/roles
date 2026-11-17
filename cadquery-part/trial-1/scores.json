@@ -1,0 +1,50 @@
+{
+  "role": "cadquery-part",
+  "runs": [
+    {
+      "run": 1,
+      "verdict": "pass",
+      "passed": true
+    },
+    {
+      "run": 2,
+      "verdict": "pass",
+      "passed": true
+    }
+  ],
+  "passed": 2,
+  "n": 2,
+  "wilson95": [
+    0.34,
+    1.0
+  ],
+  "controls": [
+    {
+      "control": "no-step",
+      "verdict": "fail: part.step is missing or empty",
+      "caught": true
+    },
+    {
+      "control": "empty-stl",
+      "verdict": "fail: part.stl is missing or empty",
+      "caught": true
+    },
+    {
+      "control": "wrong-hole",
+      "verdict": "fail: the solid's volume is 6728.8 mm3, the parameters give 6898.4 mm3",
+      "caught": true
+    },
+    {
+      "control": "two-solids",
+      "verdict": "fail: part.step holds 2 solid(s), valid=True: one valid solid is required",
+      "caught": true
+    },
+    {
+      "control": "open-mesh",
+      "verdict": "fail: part.stl is not closed: 3 edges are not shared by exactly two triangles",
+      "caught": true
+    }
+  ],
+  "controls_caught": 5,
+  "controls_n": 5
+}
