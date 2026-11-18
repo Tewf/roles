@@ -1,0 +1,197 @@
+{
+ "checks_at": "65e42472e2d4cbfd994c2a86e95a47e5dc7301ca",
+ "tried": 825,
+ "kept": [
+  {
+   "name": "ai-augmented-agents-5a0fa3b",
+   "repo": "ai-augmented-agents",
+   "parent": "13e5949f206877e3d9ffd9970f7a4f4c8c191ada",
+   "commit": "5a0fa3b823620f89d6b0e60829572fe6dbf87e8a",
+   "subject": "Add the exchange shape with the brief test as its worked example",
+   "errors": [
+    "error    links                principles/README.md:5  link does not resolve: ../shapes/exchange.md",
+    "error    links                principles/brief/README.md:4  link does not resolve: ../../shapes/exchange.md",
+    "error    links                principles/result/README.md:4  link does not resolve: ../../shapes/exchange.md"
+   ],
+   "n_errors": 3
+  },
+  {
+   "name": "ai-augmented-foundations-2877f02",
+   "repo": "ai-augmented-foundations",
+   "parent": "1d4b642b38d87016d5f209c32fb6867463486a71",
+   "commit": "2877f02002e77006bbd2a669ce535659ad7e616b",
+   "subject": "Record which findings became principles, and which stayed findings",
+   "errors": [
+    "error    links                standard.md:37  link does not resolve: decisions/0004-which-findings-became-principles.md"
+   ],
+   "n_errors": 1
+  },
+  {
+   "name": "ai-augmented-ide-c686d3c",
+   "repo": "ai-augmented-ide",
+   "parent": "10bf841c69c657ac101c02aaa6d4cad51ee4b050",
+   "commit": "c686d3c4d54d4ea1ad86b7ba870fabb7e3b337c7",
+   "subject": "Record the five choices of the extension design, 0003 to 0007",
+   "errors": [
+    "error    links                design/extension.md:91  link does not resolve: ../decisions/0003-a-thin-extension-beside-an-agent.md",
+    "error    links                design/extension.md:92  link does not resolve: ../decisions/0007-a-one-day-spike-before-any-build.md"
+   ],
+   "n_errors": 2
+  },
+  {
+   "name": "ai-augmented-project-35eb4f9",
+   "repo": "ai-augmented-project",
+   "parent": "1b95674635f7a3137e4753ad2f1a540217d03bc8",
+   "commit": "35eb4f9486364d391aa26ca7fb566dcd92411dd1",
+   "subject": "Record the 30 sessions of the method comparison",
+   "errors": [
+    "error    links                experiments/method-comparison/protocol.md:4  link does not resolve: results.md"
+   ],
+   "n_errors": 1
+  },
+  {
+   "name": "ai-augmented-project-4a51d58",
+   "repo": "ai-augmented-project",
+   "parent": "6b616cd2280c8855af8585f1b9f37817d593d05c",
+   "commit": "4a51d5828e5171a19e74bb6900edc5af69332e07",
+   "subject": "Say once how the six records were accepted",
+   "errors": [
+    "error    duplication          decisions/0007-the-extension-reads-files-and-hands-over-two.md:5  4 runs of 20 words also in decisions/0004-a-short-start-file-and-an-index.md (line 5): keep the fact in one file and link to it"
+   ],
+   "n_errors": 1
+  },
+  {
+   "name": "ai-augmented-project-5e9fc8c",
+   "repo": "ai-augmented-project",
+   "parent": "75fe71a3c5b4969ac0d35b8626018b8152806a49",
+   "commit": "5e9fc8c331928c42411a1864c276ba353505202a",
+   "subject": "Record the five choices of the design document, 0003 to 0007",
+   "errors": [
+    "error    links                design/one-project.md:80  link does not resolve: ../decisions/0003-the-model-decides-nothing-unchecked.md",
+    "error    links                design/one-project.md:81  link does not resolve: ../decisions/0007-the-extension-reads-files-and-hands-over-two.md"
+   ],
+   "n_errors": 2
+  },
+  {
+   "name": "law-oracle-c07cb0c",
+   "repo": "law-oracle",
+   "parent": "0b445e96ed2da81b7dd2a9690b577e4d8f69b0a7",
+   "commit": "c07cb0c92a16ed70f4961db9322e7a5afabb4848",
+   "subject": "Write the front page with the verdict drawn",
+   "errors": [
+    "error    links                decisions/0001-catala-for-the-statute-z3-for-bounded-checks-lean-for-theorems.md:21  link does not resolve: ../README.md#what-a-verdict-is",
+    "error    links                decisions/0002-a-verdict-has-three-values.md:20  link does not resolve: ../README.md#what-a-verdict-is",
+    "error    links                evidence/statutes-as-code/position.md:16  link does not resolve: ../../README.md#what-a-verdict-is"
+   ],
+   "n_errors": 3
+  },
+  {
+   "name": "profile-4f6163a",
+   "repo": "profile",
+   "parent": "35d4c5d8e6c2754920ce91bc6df98dfe758baeac",
+   "commit": "4f6163ac78fd126efee4ce68f813cc431190fb11",
+   "subject": "Remove content from README.fr.md",
+   "errors": [
+    "error    links                README.md:3  link does not resolve: README.fr.md"
+   ],
+   "n_errors": 1
+  },
+  {
+   "name": "reader-ergonomics-ba6424c",
+   "repo": "reader-ergonomics",
+   "parent": "37cc073fc5231b27cb8e762c0721e96db0b0b4c1",
+   "commit": "ba6424cd5aff60b434ada09c3b4b8dcc8679ffef",
+   "subject": "Say plainly that this is a work in progress",
+   "errors": [
+    "error    links                README.fr.md:50  link does not resolve: CITATION.cff",
+    "error    links                README.md:50  link does not resolve: CITATION.cff"
+   ],
+   "n_errors": 2
+  },
+  {
+   "name": "reader-ergonomics-60bedc4",
+   "repo": "reader-ergonomics",
+   "parent": "179414637f50c1dd3ba128f60baf28b34179e8b3",
+   "commit": "60bedc4bced5276c0ac2544d221f0bbd678721e7",
+   "subject": "Add skeletons for notes, folder READMEs, reports and commits",
+   "errors": [
+    "error    links                standard.md:9  link does not resolve: shapes/"
+   ],
+   "n_errors": 1
+  },
+  {
+   "name": "reader-ergonomics-academic-218c013",
+   "repo": "reader-ergonomics-academic",
+   "parent": "8797001da27ddc11e85e2940f3cc8447a8c5afd1",
+   "commit": "218c013567b6f11d2b02e7a43d14956096df8479",
+   "subject": "Make the papers work stand on its own beside reader-ergonomics",
+   "errors": [
+    "error    links                evidence/academic-papers/README.md:5  link does not resolve: ../bibliography.md",
+    "error    links                evidence/mathematical-writing/README.md:5  link does not resolve: ../bibliography.md",
+    "error    links                shapes/mathematical-article.md:31  link does not resolve: ../evidence/bibliography.md",
+    "error    links                shapes/mathematical-article.md:38  link does not resolve: ../principles/document/overview-first.md",
+    "error    links                shapes/mathematical-article.md:39  link does not resolve: ../principles/document/overview-first.md",
+    "error    links                shapes/mathematical-article.md:40  link does not resolve: ../principles/document/define-before-use.md",
+    "error    links                shapes/mathematical-article.md:40  link does not resolve: ../principles/collection/one-place-per-fact.md",
+    "error    links                shapes/mathematical-article.md:41  link does not resolve: ../principles/document/short-reference-distance.md",
+    "error    links                shapes/mathematical-article.md:42  link does not resolve: ../principles/document/shallow-outline.md",
+    "error    links                shapes/proof.md:29  link does not resolve: ../evidence/bibliography.md",
+    "error    links                shapes/proof.md:37  link does not resolve: ../principles/document/overview-first.md",
+    "error    links                shapes/proof.md:38  link does not resolve: ../principles/document/shallow-outline.md",
+    "error    links                shapes/proof.md:39  link does not resolve: ../principles/document/define-before-use.md",
+    "error    links                shapes/proof.md:39  link does not resolve: ../principles/document/short-reference-distance.md",
+    "error    links                shapes/proof.md:40  link does not resolve: ../principles/page/signal-the-structure.md",
+    "error    links                shapes/research-paper.md:28  link does not resolve: ../evidence/bibliography.md",
+    "error    links                shapes/research-paper.md:35  link does not resolve: ../principles/document/overview-first.md",
+    "error    links                shapes/research-paper.md:36  link does not resolve: ../principles/document/overview-first.md",
+    "error    links                shapes/research-paper.md:36  link does not resolve: ../principles/page/signal-the-structure.md",
+    "error    links                shapes/research-paper.md:37  link does not resolve: ../principles/document/define-before-use.md",
+    "error    links                shapes/research-paper.md:38  link does not resolve: ../principles/page/signal-the-structure.md",
+    "error    links                shapes/research-paper.md:38  link does not resolve: ../principles/sentence/given-before-new.md",
+    "error    links                shapes/research-paper.md:39  link does not resolve: ../principles/page/draw-relations.md",
+    "error    links                shapes/research-paper.md:39  link does not resolve: ../principles/page/figure-next-to-its-text.md",
+    "error    links                shapes/research-paper.md:40  link does not resolve: ../principles/document/shallow-outline.md"
+   ],
+   "n_errors": 25
+  },
+  {
+   "name": "reader-ergonomics-blueprint-0bd891c",
+   "repo": "reader-ergonomics-blueprint",
+   "parent": "c506fdd0882463998f4068ddd5f6e88e4ab5be91",
+   "commit": "0bd891ccebde587f00851c9ee17ff7dfef3f73d9",
+   "subject": "Name the audit's sources once, in the evidence index",
+   "errors": [
+    "error    duplication          proofs/infinitely-many-primes/README.md:8  2 runs of 20 words also in README.md (line 12): keep the fact in one file and link to it"
+   ],
+   "n_errors": 1
+  },
+  {
+   "name": "reader-ergonomics-blueprint-af61e0f",
+   "repo": "reader-ergonomics-blueprint",
+   "parent": "377778bf0a8ca8d0b7cfa1c6c8f05a3ab5022471",
+   "commit": "af61e0fddfb9ddd7b4eeb32081322629c5050d3d",
+   "subject": "Record the three choices the first build keeps",
+   "errors": [
+    "error    links                design/first-build.md:68  link does not resolve: ../decisions/0003-euclids-theorem-as-the-first-proof.md",
+    "error    links                design/first-build.md:69  link does not resolve: ../decisions/0005-three-checks-each-its-own-ci-step.md"
+   ],
+   "n_errors": 2
+  },
+  {
+   "name": "reader-ergonomics-learning-4b9129d",
+   "repo": "reader-ergonomics-learning",
+   "parent": "3e621a9b09a97016bf1697e7273294901cc1f19f",
+   "commit": "4b9129d951366c5997b9c9419c86bc88fd287451",
+   "subject": "Set out the scope: the study document, not the learning technique",
+   "errors": [
+    "error    links                AGENTS.md:15  link does not resolve: decisions/0001-take-the-document-not-the-technique.md",
+    "error    links                AGENTS.md:25  link does not resolve: evidence/bibliography.md",
+    "error    links                AGENTS.md:49  link does not resolve: llms.txt",
+    "error    links                AGENTS.md:50  link does not resolve: README.md",
+    "error    links                AGENTS.md:50  link does not resolve: README.fr.md",
+    "error    links                AGENTS.md:56  link does not resolve: decisions/"
+   ],
+   "n_errors": 6
+  }
+ ]
+}

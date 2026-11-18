@@ -1,0 +1,194 @@
+{
+ "arms": {
+  "mistral-large-4-0-3/role": {
+   "passed": 42,
+   "runs": 42,
+   "rate": 1.0,
+   "wilson95": [
+    0.916,
+    1.0
+   ],
+   "stray_writes": 0,
+   "cut_at_limit": 0,
+   "cut_wilson95": [
+    0.0,
+    0.084
+   ]
+  },
+  "mistral-large-4-0-3/base": {
+   "passed": 15,
+   "runs": 42,
+   "rate": 0.357,
+   "wilson95": [
+    0.23,
+    0.508
+   ],
+   "stray_writes": 0,
+   "cut_at_limit": 30,
+   "cut_wilson95": [
+    0.564,
+    0.828
+   ]
+  },
+  "zai-glm-5-3-flash/role": {
+   "passed": 42,
+   "runs": 42,
+   "rate": 1.0,
+   "wilson95": [
+    0.916,
+    1.0
+   ],
+   "stray_writes": 0,
+   "cut_at_limit": 0,
+   "cut_wilson95": [
+    0.0,
+    0.084
+   ]
+  },
+  "zai-glm-5-3-flash/base": {
+   "passed": 28,
+   "runs": 42,
+   "rate": 0.667,
+   "wilson95": [
+    0.516,
+    0.79
+   ],
+   "stray_writes": 2,
+   "cut_at_limit": 3,
+   "cut_wilson95": [
+    0.025,
+    0.19
+   ]
+  },
+  "pooled/role": {
+   "passed": 84,
+   "runs": 84,
+   "rate": 1.0,
+   "wilson95": [
+    0.956,
+    1.0
+   ],
+   "stray_writes": 0,
+   "cut_at_limit": 0,
+   "cut_wilson95": [
+    0.0,
+    0.044
+   ]
+  },
+  "pooled/base": {
+   "passed": 43,
+   "runs": 84,
+   "rate": 0.512,
+   "wilson95": [
+    0.407,
+    0.616
+   ],
+   "stray_writes": 2,
+   "cut_at_limit": 33,
+   "cut_wilson95": [
+    0.295,
+    0.5
+   ]
+  }
+ },
+ "paired": {
+  "mistral-large-4-0-3": {
+   "pairs": 42,
+   "role_only": 27,
+   "base_only": 0,
+   "mcnemar_p": 1.49e-08,
+   "role_wins_share": 1.0,
+   "role_wins_share_ci95": [
+    0.872,
+    1.0
+   ],
+   "difference": 0.643,
+   "difference_ci95": [
+    0.498,
+    0.788
+   ]
+  },
+  "zai-glm-5-3-flash": {
+   "pairs": 42,
+   "role_only": 14,
+   "base_only": 0,
+   "mcnemar_p": 0.000122,
+   "role_wins_share": 1.0,
+   "role_wins_share_ci95": [
+    0.768,
+    1.0
+   ],
+   "difference": 0.333,
+   "difference_ci95": [
+    0.191,
+    0.476
+   ]
+  },
+  "pooled": {
+   "pairs": 84,
+   "role_only": 41,
+   "base_only": 0,
+   "mcnemar_p": 9.09e-13,
+   "role_wins_share": 1.0,
+   "role_wins_share_ci95": [
+    0.914,
+    1.0
+   ],
+   "difference": 0.488,
+   "difference_ci95": [
+    0.381,
+    0.595
+   ]
+  }
+ },
+ "paired_neither_cut": {
+  "mistral-large-4-0-3": {
+   "pairs": 12,
+   "role_only": 1,
+   "base_only": 0,
+   "mcnemar_p": 1.0,
+   "role_wins_share": 1.0,
+   "role_wins_share_ci95": [
+    0.025,
+    1.0
+   ],
+   "difference": 0.083,
+   "difference_ci95": [
+    -0.073,
+    0.24
+   ]
+  },
+  "zai-glm-5-3-flash": {
+   "pairs": 39,
+   "role_only": 11,
+   "base_only": 0,
+   "mcnemar_p": 0.000977,
+   "role_wins_share": 1.0,
+   "role_wins_share_ci95": [
+    0.715,
+    1.0
+   ],
+   "difference": 0.282,
+   "difference_ci95": [
+    0.141,
+    0.423
+   ]
+  },
+  "pooled": {
+   "pairs": 51,
+   "role_only": 12,
+   "base_only": 0,
+   "mcnemar_p": 0.000488,
+   "role_wins_share": 1.0,
+   "role_wins_share_ci95": [
+    0.735,
+    1.0
+   ],
+   "difference": 0.235,
+   "difference_ci95": [
+    0.119,
+    0.352
+   ]
+  }
+ }
+}
